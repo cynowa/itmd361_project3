@@ -125,3 +125,16 @@ iframe {
   background: url("images/house.png") no-repeat center center fixed;
   background-size: cover;
 }
+
+#wrapper {
+  width: 950px;
+  height: 800px;
+  margin:0 auto;
+  overflow: hidden;
+  background-color: white;
+}
+#map {
+  width: 800px;
+  height: 700px;
+  margin: 40px auto;
+}
