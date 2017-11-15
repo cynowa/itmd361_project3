@@ -1,0 +1,127 @@
+body {
+  background-color: powderblue;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding: 27px;
+}
+h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding: 15px;
+}
+h6 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  background-color: #777;
+  padding: 20px;
+  margin: 0;
+}
+p {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+ul {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  padding: 10px 30px;
+  list-style-type: disc;
+}
+
+ul li {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  padding: 5px;
+}
+
+nav ul {
+  background-color: #777;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
+}
+nav ul li a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+section {
+  width: 100%;
+  float: left;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.indexbackground {
+  background: url("images/iit-crown-hall.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#index-white-text h3 {
+  color: white;
+}
+#index-white-text p {
+  color: white;
+}
+#index-white-text li {
+  color: white;
+}
+
+.primaryresumebackground {
+  background: url("images/building.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.secondaryresumebackground {
+  background: url("images/house.png") no-repeat center center fixed;
+  background-size: cover;
+}
