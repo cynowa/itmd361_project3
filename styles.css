@@ -82,6 +82,10 @@ nav ul li a:hover {
   color: #000;
 }
 
+.active {
+  background-color: #ccc;
+}
+
 section {
   width: 100%;
   float: left;
@@ -114,6 +118,10 @@ iframe {
 }
 #index-white-text li {
   color: white;
+}
+
+#iitlogo {
+  width: 300px;
 }
 
 .primaryresumebackground {
