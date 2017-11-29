@@ -13,26 +13,31 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: {lat: 41.795456, lng: -87.976445},
     map: map,
+    label: 'Train',
     title: 'Train Station'});
 
   var marker = new google.maps.Marker({
     position: {lat:  41.806219, lng: -87.976167},
     map: map,
-    title: 'Library'});
+    label: 'Library',
+    title: 'Westmont Library'});
 
   var marker = new google.maps.Marker({
     position: {lat: 41.806830, lng: -87.975819},
     map: map,
+    label: 'Bus',
     title: 'Bus Stop'});
 
   var marker = new google.maps.Marker({
     position: {lat: 41.811172, lng: -87.973538},
     map: map,
-    title: 'Jewel'});
+    label: 'Jewel',
+    title: 'Jewel\-Osco'});
 
   var marker = new google.maps.Marker({
     position: {lat: 41.811099, lng: -87.989021},
     map: map,
+    label: 'TJs',
     title: 'Trader Joe\'s'});
 
   var circle = new google.maps.Circle({
